@@ -1,0 +1,1 @@
+{"uuid":"33332b32-b53b-49f7-bda3-8dfa0806e459","name":"Nop","children":["819a12ed-ff99-436d-8a02-378c371dd329"],"befores":[{"name":"initBeforeSuit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1704904307661,"stop":1704904307664}],"afters":[],"start":1704904307639,"stop":1704904315573}

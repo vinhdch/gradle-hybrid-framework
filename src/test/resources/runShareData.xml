@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Nop">
+  
+  <listeners>
+  <listener class-name="commons.MethodListener"> </listener>
+  	<listener class-name="reportConfig.AllureTestListener"/>
+    <!--<listener class-name="org.uncommons.reportng.HTMLReporter"/> -->
+    <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+  
+  </listeners>
+  
+ <parameter name="browser" value="chrome" />
+  
+    <test name="Run on chrome">
+  	<parameter name="browser" value="chrome" />
+    <classes>
+     <class name="com.nopcommerce.common.Common_register_cookies"/>
+      <class name="com.nopcommerce.user.Level_16_share_data_B"/>
+    </classes>
+    
+  </test>
+  
+</suite> 
+ 
