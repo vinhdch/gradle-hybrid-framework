@@ -88,7 +88,7 @@ test {
     
     useTestNG(){
         suites 'src/test/resources/runAllure.xml'
-        // outputDirectory = file("$projectDir/allure-results")
+        outputDirectory = file("$projectDir/allure-results")
     }
     
     testLogging {
